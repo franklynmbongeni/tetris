@@ -12,6 +12,7 @@ class Grid
         void Print();
         //Color GetCellColors();
         void Draw();
+        bool IsCellOutside(int row, int);
         int grid [20][10];
     private:
         
