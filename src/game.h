@@ -17,7 +17,10 @@ class Game
         void Draw();
         bool Gameover;
 
-    private:  
+    private:
+        
+       
+        
         bool IsBlockOutside(); 
         void RotateBlock();
         void LockBlock();
